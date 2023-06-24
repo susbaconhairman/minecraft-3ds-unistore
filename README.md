@@ -9,6 +9,6 @@ https://github.com/susbaconhairman/mc-3ds-unistore
 https://github.com/bigskribbz/mc-3ds-unistore (I deleted it because I got reported and shadowbanned for having stuff I wasn't supposed to there)
 
 ## Credits
-YES, I got permission for everything.
+YES, I got permission for everything in this store.
 
 coming soon
