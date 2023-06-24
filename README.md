@@ -1,7 +1,7 @@
 # Minecraft 3DS UniStore
 The NEW Minecraft 3DS UniStore, no pirated content or stuff that I haven't gotten permission to add.
 
-### Information
+## Information
 Old repos:
 https://github.com/susbaconhairman/mc-3ds-unistore
 
