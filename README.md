@@ -30,3 +30,4 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, Google Docs for
     * Murder Drones skin pack port
     * LEGO Minecraft Dragon Slayer skin port
     * Customization remover
+**ALL CONTENT HAS THE APPROVAL BY THEIR CREATORS TO BE IN THIS STORE**
