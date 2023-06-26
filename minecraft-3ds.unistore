@@ -838,11 +838,11 @@
             "releasenotes":"There are four sun and moon texture packs in there. Some have moon phases, some don't, some have blood moon some don't. It's a mix. There's also a normal realistic larger pack with default phases too\nThey are all 200% larger though",
             "screenshots": [
                {
-                  "description": "Sun",
+                  "description": "200% larger sun",
                   "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/sun-moon-a.png"
                },
                {
-                  "description": "Moon",
+                  "description": "200% larger moon",
                   "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/sun-moon-b.png"
                },
                {
@@ -850,7 +850,7 @@
                   "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/sun-moon-c.png"
                },
                {
-                  "description": "Moon again",
+                  "description": "Full moon",
                   "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/sun-moon-d.png"
                }
             ],
@@ -966,7 +966,7 @@
                }
             ]
          },
-         "Realistic 200% Larger Sun - Blood Moon Every Night - Phases (USA)":{
+         "Realistic 200% Larger Sun + Blood Moon Every Night + Phases (USA)":{
             "size":"1.27 MB",
             "script":[
                {
@@ -1146,7 +1146,7 @@
                }
             ]
          },
-         "Realistic 200% Larger Sun - Full Blood Moon Every Night (JPN)":{
+         "Realistic 200% Larger Sun + Full Blood Moon Every Night (JPN)":{
             "size":"772.4 KB",
             "script":[
                {
@@ -1182,7 +1182,7 @@
                }
             ]
          },
-         "Realistic 200% Larger Sun - Every Full Blood Moon (USA)":{
+         "Realistic 200% Larger Sun + Every Full Blood Moon (USA)":{
             "size":"1.6 MB",
             "script":[
                {
@@ -1218,7 +1218,7 @@
                }
             ]
          },
-         "Realistic 200% Larger Sun - Every Full Blood Moon (EUR)":{
+         "Realistic 200% Larger Sun + Every Full Blood Moon (EUR)":{
             "size":"1.6 MB",
             "script":[
                {
@@ -1254,7 +1254,7 @@
                }
             ]
          },
-         "Realistic 200% Larger Sun - Every Full Blood Moon (JPN)":{
+         "Realistic 200% Larger Sun + Every Full Blood Moon (JPN)":{
             "size":"1.6 MB",
             "script":[
                {
