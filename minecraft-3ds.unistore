@@ -1,9 +1,9 @@
 {
    "storeInfo":{
       "author":"susbaconhairman",
-      "description":"Download Minecraft 3DS stuff here",
+      "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":2,
+      "revision":3,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
