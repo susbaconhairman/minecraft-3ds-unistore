@@ -38,4 +38,4 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, Google Docs for
     * New Base Skins port
     * Legacy Console Default skin pack port
 
-**ALL CONTENT HAS THE APPROVAL BY THEIR CREATORS TO BE IN THIS STORE**
+**ALL CONTENT HAS THE APPROVAL OF THEIR RESPECTIVE CREATORS TO BE IN THIS STORE**
