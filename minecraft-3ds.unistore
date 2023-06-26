@@ -965,6 +965,330 @@
                   "count": 1
                }
             ]
+         },
+         "Realistic 200% Larger Sun - Blood Moon Every Night - Phases (USA)":{
+            "size":"1.27 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-night-phases.zip",
+                  "output": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-phases.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-phases.zip",
+                  "input": "200-larger-sun-blood-moon-every-night-phases/00040000001B8700/romfs/resourcepacks/vanilla/images/environment/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/images/environment/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-phases.zip",
+                  "input": "200-larger-sun-blood-moon-every-night-phases/00040000001B8700/romfs/resourcepacks/vanilla/textures/environment/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/textures/environment/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-phases.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "This will only work when the\nvanilla textures are enabled.",
+                  "count": 1
+               }
+            ]
+         },
+         "Realistic 200% Larger Sun + Blood Moon Every Night + Phases (EUR)":{
+            "size":"1.27 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-night-phases.zip",
+                  "output": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-phases.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-phases.zip",
+                  "input": "200-larger-sun-blood-moon-every-night-phases/000400000017CA00/romfs/resourcepacks/vanilla/images/environment/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/images/environment/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-phases.zip",
+                  "input": "200-larger-sun-blood-moon-every-night-phases/000400000017CA00/romfs/resourcepacks/vanilla/textures/environment/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/textures/environment/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-phases.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "This will only work when the\nvanilla textures are enabled.",
+                  "count": 1
+               }
+            ]
+         },
+         "Realistic 200% Larger Sun + Blood Moon Every Night + Phases (JPN)":{
+            "size":"1.27 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-night-phases.zip",
+                  "output": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-phases.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-phases.zip",
+                  "input": "200-larger-sun-blood-moon-every-night-phases/000400000017FD00/romfs/resourcepacks/vanilla/images/environment/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/images/environment/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-phases.zip",
+                  "input": "200-larger-sun-blood-moon-every-night-phases/000400000017FD00/romfs/resourcepacks/vanilla/textures/environment/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/textures/environment/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-phases.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "This will only work when the\nvanilla textures are enabled.",
+                  "count": 1
+               }
+            ]
+         },
+         "Realistic 200% Larger Sun + Full Blood Moon Every Night (USA)":{
+            "size":"772.4 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-night-full-moon.zip",
+                  "output": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-full-moon.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-full-moon.zip",
+                  "input": "200-larger-sun-blood-moon-every-night-full-moon/00040000001B8700/romfs/resourcepacks/vanilla/images/environment/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/images/environment/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-full-moon.zip",
+                  "input": "200-larger-sun-blood-moon-every-night-full-moon/00040000001B8700/romfs/resourcepacks/vanilla/textures/environment/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/textures/environment/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-full-moon.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "This will only work when the\nvanilla textures are enabled.",
+                  "count": 1
+               }
+            ]
+         },
+         "Realistic 200% Larger Sun + Full Blood Moon Every Night (EUR)":{
+            "size":"772.4 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-night-full-moon.zip",
+                  "output": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-full-moon.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-full-moon.zip",
+                  "input": "200-larger-sun-blood-moon-every-night-full-moon/000400000017CA00/romfs/resourcepacks/vanilla/images/environment/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/images/environment/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-full-moon.zip",
+                  "input": "200-larger-sun-blood-moon-every-night-full-moon/000400000017CA00/romfs/resourcepacks/vanilla/textures/environment/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/textures/environment/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-full-moon.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "This will only work when the\nvanilla textures are enabled.",
+                  "count": 1
+               }
+            ]
+         },
+         "Realistic 200% Larger Sun - Full Blood Moon Every Night (JPN)":{
+            "size":"772.4 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-night-full-moon.zip",
+                  "output": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-full-moon.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-full-moon.zip",
+                  "input": "200-larger-sun-blood-moon-every-night-full-moon/000400000017FD00/romfs/resourcepacks/vanilla/images/environment/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/images/environment/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-full-moon.zip",
+                  "input": "200-larger-sun-blood-moon-every-night-full-moon/000400000017FD00/romfs/resourcepacks/vanilla/textures/environment/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/textures/environment/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-full-moon.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "This will only work when the\nvanilla textures are enabled.",
+                  "count": 1
+               }
+            ]
+         },
+         "Realistic 200% Larger Sun - Every Full Blood Moon (USA)":{
+            "size":"1.6 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-full-moon.zip",
+                  "output": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-full-moon.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-full-moon.zip",
+                  "input": "200-larger-sun-blood-moon-every-full-moon/00040000001B8700/romfs/resourcepacks/vanilla/images/environment/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/images/environment/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-full-moon.zip",
+                  "input": "200-larger-sun-blood-moon-every-full-moon/00040000001B8700/romfs/resourcepacks/vanilla/textures/environment/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/textures/environment/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-full-moon.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "This will only work when the\nvanilla textures are enabled.",
+                  "count": 1
+               }
+            ]
+         },
+         "Realistic 200% Larger Sun - Every Full Blood Moon (EUR)":{
+            "size":"1.6 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-full-moon.zip",
+                  "output": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-full-moon.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-full-moon.zip",
+                  "input": "200-larger-sun-blood-moon-every-full-moon/000400000017CA00/romfs/resourcepacks/vanilla/images/environment/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/images/environment/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-full-moon.zip",
+                  "input": "200-larger-sun-blood-moon-every-full-moon/000400000017CA00/romfs/resourcepacks/vanilla/textures/environment/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/textures/environment/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-full-moon.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "This will only work when the\nvanilla textures are enabled.",
+                  "count": 1
+               }
+            ]
+         },
+         "Realistic 200% Larger Sun - Every Full Blood Moon (JPN)":{
+            "size":"1.6 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-full-moon.zip",
+                  "output": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-full-moon.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-full-moon.zip",
+                  "input": "200-larger-sun-blood-moon-every-full-moon/000400000017FD00/romfs/resourcepacks/vanilla/images/environment/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/images/environment/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-full-moon.zip",
+                  "input": "200-larger-sun-blood-moon-every-full-moon/000400000017FD00/romfs/resourcepacks/vanilla/textures/environment/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/textures/environment/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-full-moon.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "This will only work when the\nvanilla textures are enabled.",
+                  "count": 1
+               }
+            ]
          }
       }
    ]
