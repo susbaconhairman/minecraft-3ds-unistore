@@ -20,4 +20,10 @@ Mr.Dingus#7918, Pk11, myself (skribbler#1095), various people from the Minecraft
 https://jsonformatter.curiousconcept.com/ for JSON verification, Google Docs for find and replace tool, GitHub code editor, Ohana3DS for texture conversion, Piskel and Pixlr for image editing, Tex3DS for spritesheet compilation, https://codepen.io/jsnelders/pen/qBByqQy for turning line breaks into "\n"'s, and PineTools for their (batch) image flipper.
 
 ### Item creators
-coming soon
+* ThorMode9
+    * Wewelsburg map
+    * Realistic 200% Larger Sun + Moon Collection
+* susbaconhairman
+    * kharrii2 texture pack
+    * New Default Skins port
+    * 2B2T Legends skin pack
