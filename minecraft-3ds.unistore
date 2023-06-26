@@ -266,10 +266,10 @@
             "screenshots": [
                {
                   "description": "No image is available. Sorry.",
-                  "url": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/screenshots/stronghold-fix.png"
+                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
                }
             ],
-            "icon_index":21,
+            "icon_index":7,
             "sheet_index":0,
             "last_updated":"2023-02-19 at 15:55 (CST)"
          },
@@ -435,9 +435,9 @@
       },
       {
          "info":{
-            "title":"2b2t Legends Skins",
+            "title":"2B2T Legends Skins",
             "author":"susbaconhairman",
-            "version":"v1.9.19",
+            "version":"1",
             "category":[
                "skin pack"
             ],
@@ -450,25 +450,25 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/screenshots/2b2t-skins-a.png"
+                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/2b2t-skins-a.png"
                },
                {
                   "description": "Image #2",
-                  "url": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/screenshots/2b2t-skins-b.png"
+                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/2b2t-skins-b.png"
                },
                {
                   "description": "Image #3",
-                  "url": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/screenshots/2b2t-skins-c.png"
+                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/2b2t-skins-c.png"
                }
             ], 
-            "icon_index":22,
+            "icon_index":4,
             "sheet_index":0,
             "last_updated":"2023-02-19 at 14:16 (CST)"
          },
          "2b2t Legends (USA)":[
             {
-               "file":"https://github.com/bigskribbz/mc-3ds-unistore/raw/main/resources/skins/2b2t_legends.zip",
-               "output":"sdmc:/3ds/2b2t_legends.zip",
+               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/skins/2b2t_legends.zip",
+               "output":"sdmc:/Minecraft 3DS/2b2t_legends.zip",
                "type":"downloadFile"
             },
             {
@@ -478,13 +478,13 @@
             },
             {
                "type":"extractFile",
-               "file":"sdmc:/3ds/2b2t_legends.zip",
+               "file":"sdmc:/Minecraft 3DS/2b2t_legends.zip",
                "input":"CityFolk/",
                "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/CityFolk/"
             },
             {
                "type":"deleteFile",
-               "file":"sdmc:/3ds/2b2t_legends.zip"
+               "file":"sdmc:/Minecraft 3DS/2b2t_legends.zip"
             },
             {
                "type":"promptMessage",
@@ -494,8 +494,8 @@
          ],
          "2b2t Legends (EUR)":[
             {
-               "file":"https://github.com/bigskribbz/mc-3ds-unistore/raw/main/resources/skins/2b2t_legends.zip",
-               "output":"sdmc:/3ds/2b2t_legends.zip",
+               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/skins/2b2t_legends.zip",
+               "output":"sdmc:/Minecraft 3DS/2b2t_legends.zip",
                "type":"downloadFile"
             },
             {
@@ -505,13 +505,13 @@
             },
             {
                "type":"extractFile",
-               "file":"sdmc:/3ds/2b2t_legends.zip",
+               "file":"sdmc:/Minecraft 3DS/2b2t_legends.zip",
                "input":"CityFolk/",
                "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/CityFolk/"
             },
             {
                "type":"deleteFile",
-               "file":"sdmc:/3ds/2b2t_legends.zip"
+               "file":"sdmc:/Minecraft 3DS/2b2t_legends.zip"
             },
             {
                "type":"promptMessage",
@@ -521,8 +521,8 @@
          ],
          "2b2t Legends (JPN)":[
             {
-               "file":"https://github.com/bigskribbz/mc-3ds-unistore/raw/main/resources/skins/2b2t_legends.zip",
-               "output":"sdmc:/3ds/2b2t_legends.zip",
+               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/skins/2b2t_legends.zip",
+               "output":"sdmc:/Minecraft 3DS/2b2t_legends.zip",
                "type":"downloadFile"
             },
             {
@@ -532,361 +532,13 @@
             },
             {
                "type":"extractFile",
-               "file":"sdmc:/3ds/2b2t_legends.zip",
+               "file":"sdmc:/Minecraft 3DS/2b2t_legends.zip",
                "input":"CityFolk/",
                "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/CityFolk/"
             },
             {
                "type":"deleteFile",
-               "file":"sdmc:/3ds/2b2t_legends.zip"
-            },
-            {
-               "type":"promptMessage",
-               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
-               "count":1
-            }
-         ]
-      },
-      {
-         "info":{
-            "title":"Nintendo Skin Pack",
-            "author":"Alerdy",
-            "version":"v1.0",
-            "category":[
-               "skin pack"
-            ],
-            "console":[
-               "3DS"
-            ],
-            "description":"There are 8 Nintendo skins, and more will be added.. hopefully. Replaces some of the Festive skins",
-            "license":"unknown",
-            "releasenotes": "My Nintendo Skin Pack is ready for its first release! There are 8 Nintendo skins, and more will be added... hopefully",
-            "screenshots": [
-               {
-                  "description": "Image #1",
-                  "url": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/screenshots/nintendo-skins-a.png"
-               },
-               {
-                  "description": "Image #2",
-                  "url": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/screenshots/nintendo-skins-b.png"
-               }
-            ],  
-            "icon_index":23,
-            "sheet_index":0,
-            "last_updated":"2017-09-17 at 18:19 (UTC)"
-         },
-      "Nintendo Skin Pack (USA)":[
-            {
-               "file":"https://github.com/bigskribbz/mc-3ds-unistore/raw/main/resources/skins/Nintendo_Skin_Pack.7z",
-               "output":"sdmc:/3ds/Nintendo_Skin_Pack.7z",
-               "type":"downloadFile"
-            },
-            {
-               "type":"rmdir",
-               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Festive",
-               "required":false
-            },
-            {
-               "type":"extractFile",
-               "file":"sdmc:/3ds/Nintendo_Skin_Pack.7z",
-               "input":"00040000001b8700/romfs/loc/en_US-pocket.blang",
-               "output":"sdmc:/luma/titles/00040000001B8700/romfs/loc/en_US-pocket.blang"
-            },
-            {
-               "type":"extractFile",
-               "file":"sdmc:/3ds/Nintendo_Skin_Pack.7z",
-               "input":"00040000001b8700/romfs/skins/Festive/",
-               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Festive/"
-            },
-            {
-               "type":"deleteFile",
-               "file":"sdmc:/3ds/Nintendo_Skin_Pack.7z"
-            },
-            {
-               "type":"promptMessage",
-               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
-               "count":1
-            }
-         ],
-         "Nintendo Skin Pack (EUR)":[
-            {
-               "file":"https://github.com/bigskribbz/mc-3ds-unistore/raw/main/resources/skins/Nintendo_Skin_Pack.7z",
-               "output":"sdmc:/3ds/Nintendo_Skin_Pack.7z",
-               "type":"downloadFile"
-            },
-            {
-               "type":"rmdir",
-               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Festive",
-               "required":false
-            },
-            {
-               "type":"extractFile",
-               "file":"sdmc:/3ds/Nintendo_Skin_Pack.7z",
-               "input":"00040000001b8700/romfs/loc/en_US-pocket.blang",
-               "output":"sdmc:/luma/titles/000400000017CA00/romfs/loc/en_US-pocket.blang"
-            },
-            {
-               "type":"extractFile",
-               "file":"sdmc:/3ds/Nintendo_Skin_Pack.7z",
-               "input":"00040000001b8700/romfs/skins/Festive/",
-               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Festive/"
-            },
-            {
-               "type":"deleteFile",
-               "file":"sdmc:/3ds/Nintendo_Skin_Pack.7z"
-            },
-            {
-               "type":"promptMessage",
-               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
-               "count":1
-            }
-         ],
-         "Nintendo Skin Pack (JPN)":[
-            {
-               "file":"https://github.com/bigskribbz/mc-3ds-unistore/raw/main/resources/skins/Nintendo_Skin_Pack.7z",
-               "output":"sdmc:/3ds/Nintendo_Skin_Pack.7z",
-               "type":"downloadFile"
-            },
-            {
-               "type":"rmdir",
-               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Festive",
-               "required":false
-            },
-            {
-               "type":"extractFile",
-               "file":"sdmc:/3ds/Nintendo_Skin_Pack.7z",
-               "input":"00040000001b8700/romfs/loc/en_US-pocket.blang",
-               "output":"sdmc:/luma/titles/000400000017FD00/romfs/loc/en_US-pocket.blang"
-            },
-            {
-               "type":"extractFile",
-               "file":"sdmc:/3ds/Nintendo_Skin_Pack.7z",
-               "input":"00040000001b8700/romfs/skins/Festive/",
-               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Festive/"
-            },
-            {
-               "type":"deleteFile",
-               "file":"sdmc:/3ds/Nintendo_Skin_Pack.7z"
-            },
-            {
-               "type":"promptMessage",
-               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
-               "count":1
-            }
-         ]
-      },
-      {
-         "info":{
-            "title":"Checkpoint",
-            "author":"BernardoGiordano",
-            "version":"3.7.4",
-            "category":[
-               "worlds",
-               "misc",
-               "tools"
-            ],
-            "console":[
-               "3DS"
-            ],
-            "description":"Fast and simple homebrew save manager for 3DS, use this to install custom worlds.",
-            "license":"GPL 3.0",
-            "releasenotes": "Checkpoint is a fast and simple homebrew save manager for 3DS and Switch written in C++. The UI has been designed to condense as many options as possible, while keeping it simple to work with. Checkpoint for 3DS natively supports 3DS and DS cartridges, digital standard titles and demo titles.\n\nTo install custom worlds for Minecraft: New Nintendo 3DS Edition, follow this guide: https://www.youtube.com/watch?v=SIXp33qHj58",
-            "screenshots": [
-               {
-                  "description": "Image #1",
-                  "url": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/screenshots/checkpoint.png"
-               }
-            ],  
-            "icon_index":24,
-            "sheet_index":0,
-            "last_updated":"2019-12-09 at 08:22 (CST)"
-         },
-         "Checkpoint CIA":{
-            "size":"653 KB",
-            "script":[
-               {
-                  "type": "downloadFile",
-                  "file": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/resources/worlds/Checkpoint.cia",
-                  "output": "sdmc:/Checkpoint.cia"
-               },
-               {
-                  "type": "installCia",
-                  "file": "sdmc:/Checkpoint.cia"
-               },
-               {
-                  "type": "deleteFile",
-                  "file": "sdmc:/Checkpoint.cia"
-               },
-               {
-                  "type": "promptMessage",
-                  "message": "Follow this tutorial for installing\nworlds: https://youtu.be/SIXp33qHj58",
-                  "count": 1
-               }
-            ]
-         },
-         "Checkpoint 3DSX":{
-            "size":"748 KB",
-            "script":[
-               {
-                  "type": "downloadFile",
-                  "file": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/resources/worlds/Checkpoint.3dsx",
-                  "output": "sdmc:/3ds/Checkpoint.3dsx"
-               },
-               {
-                  "type": "promptMessage",
-                  "message": "Follow this tutorial for installing\nworlds: https://youtu.be/SIXp33qHj58",
-                  "count": 1
-               }
-            ]
-         }
-      },
-      {
-         "info":{
-            "title":"Debug Mode 3D",
-            "author":"WaterMelon",
-            "version":"1.0.0",
-            "category":[
-               "worlds"
-            ],
-            "console":[
-               "3DS"
-            ],
-            "description":"Debug Mode 3D is a recreation of debug mode in Minecraft: Java Edition. It makes texture development easier. Void world provided by DeadSkullzJr",
-            "license":"unknown",
-            "releasenotes": "Minecraft - New Nintendo 3DS Edition (v1.9.19)\nDebug Mode 3D (v1.0.0)\n\nDescription:\nDebug Mode 3D is a recreation of debug mode in Minecraft: Java Edition. It makes texture development easier.\n\nCredits:\nWaterMelon - Creator of the map.\nDeadSkullzJr - Creator and provider of the custom void world.",
-            "screenshots": [
-               {
-                  "description": "Debug Mode 3D",
-                  "url": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/screenshots/debug-mode-3d.png"
-               }
-            ],
-            "icon_index":25,
-            "sheet_index":0,
-            "last_updated":"2023-02-10 at 19:57 (UTC)"
-         },
-         "Debug Mode 3D":[
-            {
-               "type": "downloadFile",
-               "file": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/resources/worlds/debug-mode-3d.7z",
-               "output": "sdmc:/MC 3DS Worlds/debug-mode-3d.7z"
-            },
-            {
-               "type": "extractFile",
-               "file": "sdmc:/MC 3DS worlds/debug-mode-3d.7z",
-               "input": "Debug Mode 3D/",
-               "output": "sdmc:/MC 3DS Worlds/Debug Mode 3D/"
-            },
-            {
-               "type": "deleteFile",
-               "file": "sdmc:/MC 3DS Worlds/debug-mode-3d.7z"
-            },
-            {
-               "type": "promptMessage",
-               "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
-               "count": 1
-            }
-         ]
-      },
-      {
-         "info":{
-            "title":"Sonic Skin Pack",
-            "author":"Smashmax20",
-            "version":"1",
-            "category":[
-               "skins",
-               "skinpack"
-            ],
-            "console":[
-               "3DS"
-            ],
-            "description":"24 skins of some of the most notable characters in the Sonic universe! Replaces the Biome Settlers Pack 2 skin pack. (Note: Amy, Eggman, and Omega are messed up. Feel free to fix them if you can)",
-            "license":"unknown",
-            "releasenotes": "It is finally finished! Here is my Sonic skin pack, featuring:\n- Sonic The Hedgehog\n- Miles 'Tails' Prower\n- Knuckles The Echidna\n- Shadow The Hedgehog\n- Amy Rose\n- Big The Cat\n- Rouge The Bat\n- E-123 Omega\n- Silver The Hedgehog\n- Blaze The Cat\n- Vector The Crocodile\n- Espio The Chameleon\n- Charmy Bee\n- Jet The Hawk\n- Storm The Albatross\n- Wave The Swallow\n- Sticks The Badger\n- Metal Sonic\n- Cream The Rabbit\n- Dr. Ivo 'Eggman' Robotnik\n- Mighty The Armadillo\n- Ray The Flying Squirrel\n- Princess Sally Acorn\n- Hard Boiled Heavy\n(Note: Amy, Eggman, and Omega are messed up. Feel free to fix them if you can)\n\nAlso, Sticks, and Hard Boiled Heavy were requests by some of my Discord friends. The rest I decided on my own.",
-            "screenshots": [
-               {
-                  "description": "Image #1",
-                  "url": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/screenshots/sonic-a.png"
-               },
-               {
-                  "description": "Image #2",
-                  "url": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/screenshots/sonic-b.png"
-               },
-               {
-                  "description": "Image #3",
-                  "url": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/screenshots/sonic-c.png"
-               },
-               {
-                  "description": "Image #4",
-                  "url": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/screenshots/sonic-d.png"
-               },
-               {
-                  "description": "Image #5",
-                  "url": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/screenshots/sonic-e.png"
-               }
-            ],
-            "icon_index":26,
-            "sheet_index":0,
-            "last_updated":"2017-09-27 at 00:00 (UTC)"
-         },
-         "Sonic skins (USA)":[
-            {
-               "type": "downloadFile",
-               "file": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/resources/skins/sonic.zip",
-               "output": "sdmc:/3ds/sonic.zip"
-            },
-            {
-               "type": "extractFile",
-               "file": "sdmc:/3ds/sonic.zip",
-               "input": "Biome2/",
-               "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Biome2/"
-            },
-            {
-               "type": "deleteFile",
-               "file": "sdmc:/3ds/sonic.zip"
-            },
-            {
-               "type":"promptMessage",
-               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
-               "count":1
-            }
-         ],
-         "Sonic skins (EUR)":[
-            {
-               "type": "downloadFile",
-               "file": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/resources/skins/sonic.zip",
-               "output": "sdmc:/3ds/sonic.zip"
-            },
-            {
-               "type": "extractFile",
-               "file": "sdmc:/3ds/sonic.zip",
-               "input": "Biome2/",
-               "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Biome2/"
-            },
-            {
-               "type": "deleteFile",
-               "file": "sdmc:/3ds/sonic.zip"
-            },
-            {
-               "type":"promptMessage",
-               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
-               "count":1
-            }
-         ],
-         "Sonic skins (JPN)":[
-            {
-               "type": "downloadFile",
-               "file": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/resources/skins/sonic.zip",
-               "output": "sdmc:/3ds/sonic.zip"
-            },
-            {
-               "type": "extractFile",
-               "file": "sdmc:/3ds/sonic.zip",
-               "input": "Biome2/",
-               "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Biome2/"
-            },
-            {
-               "type": "deleteFile",
-               "file": "sdmc:/3ds/sonic.zip"
+               "file":"sdmc:/Minecraft 3DS/2b2t_legends.zip"
             },
             {
                "type":"promptMessage",
@@ -913,32 +565,32 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/screenshots/drones-a.png"
+                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/drones-a.png"
                },
                {
                   "description": "Image #2",
-                  "url": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/screenshots/drones-b.png"
+                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/drones-b.png"
                }
             ],
-            "icon_index":27,
+            "icon_index":5,
             "sheet_index":0,
             "last_updated":"2023-04-11 at 19:00 (CST)"
          },
          "Murder Drones (USA)":[
             {
-               "file":"https://github.com/bigskribbz/mc-3ds-unistore/raw/main/resources/skins/murder-drones.zip",
-               "output":"sdmc:/3ds/murder-drones.zip",
+               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/skins/murder-drones.zip",
+               "output":"sdmc:/Minecraft 3DS/murder-drones.zip",
                "type":"downloadFile"
             },
             {
                "type":"extractFile",
-               "file":"sdmc:/3ds/murder-drones.zip",
+               "file":"sdmc:/Minecraft 3DS/murder-drones.zip",
                "input":"TownFolk/",
                "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/TownFolk/"
             },
             {
                "type":"deleteFile",
-               "file":"sdmc:/3ds/murder-drones.zip"
+               "file":"sdmc:/Minecraft 3DS/murder-drones.zip"
             },
             {
                "type":"promptMessage",
@@ -948,19 +600,19 @@
          ],
          "Murder Drones (EUR)":[
             {
-               "file":"https://github.com/bigskribbz/mc-3ds-unistore/raw/main/resources/skins/murder-drones.zip",
-               "output":"sdmc:/3ds/murder-drones.zip",
+               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/skins/murder-drones.zip",
+               "output":"sdmc:/Minecraft 3DS/murder-drones.zip",
                "type":"downloadFile"
             },
             {
                "type":"extractFile",
-               "file":"sdmc:/3ds/murder-drones.zip",
+               "file":"sdmc:/Minecraft 3DS/murder-drones.zip",
                "input":"TownFolk/",
                "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/TownFolk/"
             },
             {
                "type":"deleteFile",
-               "file":"sdmc:/3ds/murder-drones.zip"
+               "file":"sdmc:/Minecraft 3DS/murder-drones.zip"
             },
             {
                "type":"promptMessage",
@@ -970,19 +622,19 @@
          ],
          "Murder Drones (JPN)":[
             {
-               "file":"https://github.com/bigskribbz/mc-3ds-unistore/raw/main/resources/skins/murder-drones.zip",
-               "output":"sdmc:/3ds/murder-drones.zip",
+               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/skins/murder-drones.zip",
+               "output":"sdmc:/Minecraft 3DS/murder-drones.zip",
                "type":"downloadFile"
             },
             {
                "type":"extractFile",
-               "file":"sdmc:/3ds/murder-drones.zip",
+               "file":"sdmc:/Minecraft 3DS/murder-drones.zip",
                "input":"TownFolk/",
                "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/TownFolk/"
             },
             {
                "type":"deleteFile",
-               "file":"sdmc:/3ds/murder-drones.zip"
+               "file":"sdmc:/Minecraft 3DS/murder-drones.zip"
             },
             {
                "type":"promptMessage",
@@ -990,101 +642,6 @@
                "count":1
             }
          ]
-      },
-      {
-         "info":{
-            "title":"Minecraft 3DS DLC",
-            "author":"Mojang, Other Ocean, 4J",
-            "version":"1.9.19",
-            "category":[
-               "dlc",
-               "misc"
-            ],
-            "console":[
-               "3DS"
-            ],
-            "description":"Official DLC for Minecraft: New Nintendo 3DS Edition.",
-            "license":"unknown",
-            "releasenotes": "Official DLC for Minecraft: New Nintendo 3DS Edition.\n\nThis content is compatible only with New 3DS systems. It cannot be installed on old 3DS systems.", 
-            "screenshots": [
-               {
-                  "description": "No image is available. Sorry.",
-                  "url": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/screenshots/stronghold-fix.png"
-               }
-            ],
-            "icon_index":28,
-            "sheet_index":0,
-            "last_updated":"2021-05-13 at 13:26 (UTC)"
-         },
-         "DLC (USA)":{
-            "size": "601.44 KiB, 4 blocks",
-            "script":[
-               {
-                  "type": "downloadFile",
-                  "file": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/resources/dlc/us_dlc.cia",
-                  "output": "sdmc:/us_dlc.cia"
-               },
-               {
-                  "type": "installCia",
-                  "file": "sdmc:/us_dlc.cia"
-               },
-               {
-                  "type": "deleteFile",
-                  "file": "sdmc:/us_dlc.cia"
-               },
-               {
-                  "type": "promptMessage",
-                  "message": "Use the DLC Activator (available\nin this store) to use the DLC.",
-                  "count": 1
-               }
-            ]
-         },
-         "DLC (EUR)":{
-            "size": "601.44 KiB, 4 blocks",
-            "script":[
-               {
-                  "type": "downloadFile",
-                  "file": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/resources/dlc/eu_dlc.cia",
-                  "output": "sdmc:/eu_dlc.cia"
-               },
-               {
-                  "type": "installCia",
-                  "file": "sdmc:/eu_dlc.cia"
-               },
-               {
-                  "type": "deleteFile",
-                  "file": "sdmc:/eu_dlc.cia"
-               },
-               {
-                  "type": "promptMessage",
-                  "message": "Use the DLC Activator (available\nin this store) to use the DLC.",
-                  "count": 1
-               }
-            ]
-         },
-         "DLC (JPN)":{
-            "size": "601.44 KiB, 4 blocks",
-            "script":[
-               {
-                  "type": "downloadFile",
-                  "file": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/resources/dlc/jp_dlc.cia",
-                  "output": "sdmc:/jp_dlc.cia"
-               },
-               {
-                  "type": "installCia",
-                  "file": "sdmc:/jp_dlc.cia"
-               },
-               {
-                  "type": "deleteFile",
-                  "file": "sdmc:/jp_dlc.cia"
-               },
-               {
-                  "type": "promptMessage",
-                  "message": "Use the DLC Activator (available\nin this store) to use the DLC.",
-                  "count": 1
-               }
-            ]
-         }
       },
       {
          "info":{
@@ -1104,22 +661,22 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/screenshots/new-skins-a.png"
+                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/new-skins-a.png"
                },
                {
                   "description": "Image #2",
-                  "url": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/screenshots/new-skins-b.png"
+                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/new-skins-b.png"
                },
                {
                   "description": "Image #3",
-                  "url": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/screenshots/new-skins-c.png"
+                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/new-skins-c.png"
                },
                {
                   "description": "Image #4",
-                  "url": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/screenshots/new-skins-d.png"
+                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/new-skins-d.png"
                }
             ],
-            "icon_index":29,
+            "icon_index":3,
             "sheet_index":0,
             "last_updated":"2023-04-23 at 13:50 (CST)"
          },
@@ -1127,19 +684,19 @@
             "size": "309.24 KB, 2 blocks",
             "script":[
                {
-                  "file":"https://github.com/bigskribbz/mc-3ds-unistore/raw/main/resources/skins/new-default-skins.zip",
-                  "output":"sdmc:/3ds/new-default-skins.zip",
+                  "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/skins/new-default-skins.zip",
+                  "output":"sdmc:/Minecraft 3DS/new-default-skins.zip",
                   "type":"downloadFile"
                },
                {
                   "type":"extractFile",
-                  "file":"sdmc:/3ds/new-default-skins.zip",
+                  "file":"sdmc:/Minecraft 3DS/new-default-skins.zip",
                   "input":"Halloween/",
                   "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Halloween/"
                },
                {
                   "type":"deleteFile",
-                  "file":"sdmc:/3ds/new-default-skins.zip"
+                  "file":"sdmc:/Minecraft 3DS/new-default-skins.zip"
                },
                {
                   "type":"promptMessage",
@@ -1152,19 +709,19 @@
             "size": "309.24 KB, 2 blocks",
             "script":[
                {
-                  "file":"https://github.com/bigskribbz/mc-3ds-unistore/raw/main/resources/skins/new-default-skins.zip",
-                  "output":"sdmc:/3ds/new-default-skins.zip",
+                  "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/skins/new-default-skins.zip",
+                  "output":"sdmc:/Minecraft 3DS/new-default-skins.zip",
                   "type":"downloadFile"
                },
                {
                   "type":"extractFile",
-                  "file":"sdmc:/3ds/new-default-skins.zip",
+                  "file":"sdmc:/Minecraft 3DS/new-default-skins.zip",
                   "input":"Halloween/",
                   "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Halloween/"
                },
                {
                   "type":"deleteFile",
-                  "file":"sdmc:/3ds/new-default-skins.zip"
+                  "file":"sdmc:/Minecraft 3DS/new-default-skins.zip"
                },
                {
                   "type":"promptMessage",
@@ -1177,19 +734,19 @@
             "size": "309.24 KB, 2 blocks",
             "script":[
                {
-                  "file":"https://github.com/bigskribbz/mc-3ds-unistore/raw/main/resources/skins/new-default-skins.zip",
-                  "output":"sdmc:/3ds/new-default-skins.zip",
+                  "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/skins/new-default-skins.zip",
+                  "output":"sdmc:/Minecraft 3DS/new-default-skins.zip",
                   "type":"downloadFile"
                },
                {
                   "type":"extractFile",
-                  "file":"sdmc:/3ds/new-default-skins.zip",
+                  "file":"sdmc:/Minecraft 3DS/new-default-skins.zip",
                   "input":"Halloween/",
                   "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Halloween/"
                },
                {
                   "type":"deleteFile",
-                  "file":"sdmc:/3ds/new-default-skins.zip"
+                  "file":"sdmc:/Minecraft 3DS/new-default-skins.zip"
                },
                {
                   "type":"promptMessage",
@@ -1216,26 +773,26 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/screenshots/wewelsburg-a.png"
+                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-a.png"
                },
                {
                   "description": "Image #2",
-                  "url": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/screenshots/wewelsburg-b.png"
+                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-b.png"
                },
                {
                   "description": "Image #3",
-                  "url": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/screenshots/wewelsburg-c.png"
+                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-c.png"
                },
                {
                   "description": "Image #4",
-                  "url": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/screenshots/wewelsburg-d.png"
+                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-d.png"
                },
                {
                   "description": "Image #5",
-                  "url": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/screenshots/wewelsburg-e.png"
+                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-e.png"
                }
             ],
-            "icon_index":30,
+            "icon_index":0,
             "sheet_index":0,
             "last_updated":"2023-04-25 at 00:00 (UTC)"
          },
@@ -1244,18 +801,18 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/resources/worlds/wewelsburg.zip",
-                  "output": "sdmc:/MC 3DS Worlds/wewelsburg.zip"
+                  "file": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/worlds/wewelsburg.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/wewelsburg.zip"
                },
                {
                   "type": "extractFile",
-                  "file": "sdmc:/MC 3DS worlds/wewelsburg.zip",
+                  "file": "sdmc:/Minecraft 3DS/worlds/wewelsburg.zip",
                   "input": "Wewelsburg/",
-                  "output": "sdmc:/MC 3DS Worlds/Wewelsburg/"
+                  "output": "sdmc:/Minecraft 3DS/worlds/Wewelsburg/"
                },
                {
                   "type": "deleteFile",
-                  "file": "sdmc:/MC 3DS Worlds/wewelsburg.zip"
+                  "file": "sdmc:/Minecraft 3DS/worlds/wewelsburg.zip"
                },
                {
                   "type": "promptMessage",
@@ -1267,136 +824,144 @@
       },
       {
          "info":{
-            "title":"PokeTube City",
-            "author":"PokéTube",
-            "version":"1.3",
+            "title":"Realistic 200% Larger Sun + Moon Collection",
+            "author":"ThorMode9",
+            "version":"1",
             "category":[
-               "worlds"
+               "textures"
             ],
             "console":[
                "3DS"
             ],
-            "description":"Minecraft: New Nintendo 3DS Edition’s largest city world. Explore multiple towns and a large city, with every single building having some sort of use. The 1.3 Update is out now!",
+            "description":"A collection of realistic suns and moons that are 200% larger than the normal ones in-game.",
             "license":"unknown",
-            "releasenotes":"Minecraft: New Nintendo 3DS Edition’s largest city world. Explore multiple towns and a large city, with every single building having some sort of use.\n\nCreator: PokéTube",
+            "releasenotes":"There are four sun and moon texture packs in there. Some have moon phases, some don't, some have blood moon some don't. It's a mix. There's also a normal realistic larger pack with default phases too\nThey are all 200% larger though",
             "screenshots": [
                {
-                  "description": "PokeTube City v1",
-                  "url": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/screenshots/poketube-a.png"
+                  "description": "Sun",
+                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/sun-moon-a.png"
                },
                {
-                  "description": "PokeTube City v1.1",
-                  "url": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/screenshots/poketube-b.png"
+                  "description": "Moon",
+                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/sun-moon-b.png"
                },
                {
-                  "description": "PokeTube City v1.2",
-                  "url": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/screenshots/poketube-c.png"
+                  "description": "Blood moon",
+                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/sun-moon-c.png"
                },
                {
-                  "description": "PokeTube City v1.3",
-                  "url": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/screenshots/poketube-d.png"
+                  "description": "Moon again",
+                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/sun-moon-d.png"
                }
             ],
-            "icon_index":31,
+            "icon_index":1,
             "sheet_index":0,
-            "last_updated":"2023-01-28 at 00:00 (UTC)"
+            "last_updated":"2023-06-19 at 13:09 (CDT)"
          },
-         "PokeTube City v1":{
-            "size":"9.52 MB",
+         "Realistic 200% Larger Sun and Moon (USA)":{
+            "size":"1.62 MB",
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/resources/worlds/poketube-city-v1.zip",
-                  "output": "sdmc:/MC 3DS Worlds/poketube-city-v1.zip"
+                  "file": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-moon.zip",
+                  "output": "sdmc:/Minecraft 3DS/200-larger-sun-moon.zip"
                },
                {
                   "type": "extractFile",
-                  "file": "sdmc:/MC 3DS worlds/poketube-city-v1.zip",
-                  "input": "PokeTube City/PokeTube City/",
-                  "output": "sdmc:/MC 3DS Worlds/PokeTube City/"
+                  "file": "sdmc:/Minecraft 3DS/200-larger-sun-moon.zip",
+                  "input": "200-larger-sun-moon/00040000001B8700/romfs/resourcepacks/vanilla/images/environment/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/images/environment/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/200-larger-sun-moon.zip",
+                  "input": "200-larger-sun-moon/00040000001B8700/romfs/resourcepacks/vanilla/textures/environment/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/textures/environment/"
                },
                {
                   "type": "deleteFile",
-                  "file": "sdmc:/MC 3DS Worlds/poketube-city-v1.zip"
+                  "file": "sdmc:/Minecraft 3DS/200-larger-sun-moon.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
                },
                {
                   "type": "promptMessage",
-                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "message": "This will only work when the\nvanilla textures are enabled.",
                   "count": 1
                }
             ]
          },
-         "PokeTube City v1.1":{
-            "size":"7.27 MB",
+         "Realistic 200% Larger Sun and Moon (EUR)":{
+            "size":"1.62 MB",
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/resources/worlds/poketube-city-v1-1.zip",
-                  "output": "sdmc:/MC 3DS Worlds/poketube-city-v1-1.zip"
+                  "file": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-moon.zip",
+                  "output": "sdmc:/Minecraft 3DS/200-larger-sun-moon.zip"
                },
                {
                   "type": "extractFile",
-                  "file": "sdmc:/MC 3DS worlds/poketube-city-v1-1.zip",
-                  "input": "PokeTube City v1.1/",
-                  "output": "sdmc:/MC 3DS Worlds/PokeTube City v1.1/"
+                  "file": "sdmc:/Minecraft 3DS/200-larger-sun-moon.zip",
+                  "input": "200-larger-sun-moon/000400000017CA00/romfs/resourcepacks/vanilla/images/environment/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/images/environment/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/200-larger-sun-moon.zip",
+                  "input": "200-larger-sun-moon/000400000017CA00/romfs/resourcepacks/vanilla/textures/environment/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/textures/environment/"
                },
                {
                   "type": "deleteFile",
-                  "file": "sdmc:/MC 3DS Worlds/poketube-city-v1-1.zip"
+                  "file": "sdmc:/Minecraft 3DS/200-larger-sun-moon.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
                },
                {
                   "type": "promptMessage",
-                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "message": "This will only work when the\nvanilla textures are enabled.",
                   "count": 1
                }
             ]
          },
-         "PokeTube City v1.2":{
-            "size":"8.55 MB",
+         "Realistic 200% Larger Sun and Moon (JPN)":{
+            "size":"1.62 MB",
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/resources/worlds/poketube-city-v1-2.zip",
-                  "output": "sdmc:/MC 3DS Worlds/poketube-city-v1-2.zip"
+                  "file": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-moon.zip",
+                  "output": "sdmc:/Minecraft 3DS/200-larger-sun-moon.zip"
                },
                {
                   "type": "extractFile",
-                  "file": "sdmc:/MC 3DS worlds/poketube-city-v1-2.zip",
-                  "input": "PokeTube City 1.2/",
-                  "output": "sdmc:/MC 3DS Worlds/PokeTube City v1.2/"
-               },
-               {
-                  "type": "deleteFile",
-                  "file": "sdmc:/MC 3DS Worlds/poketube-city-v1-2.zip"
-               },
-               {
-                  "type": "promptMessage",
-                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
-                  "count": 1
-               }
-            ]
-         },
-         "PokeTube City v1.3":{
-            "size":"8.50 MB",
-            "script":[
-               {
-                  "type": "downloadFile",
-                  "file": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/resources/worlds/poketube-city-v1-3.zip",
-                  "output": "sdmc:/MC 3DS Worlds/poketube-city-v1-3.zip"
+                  "file": "sdmc:/Minecraft 3DS/200-larger-sun-moon.zip",
+                  "input": "200-larger-sun-moon/000400000017FD00/romfs/resourcepacks/vanilla/images/environment/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/images/environment/"
                },
                {
                   "type": "extractFile",
-                  "file": "sdmc:/MC 3DS worlds/poketube-city-v1-3.zip",
-                  "input": "PokeTube City 1.3/",
-                  "output": "sdmc:/MC 3DS Worlds/PokeTube City v1.3/"
+                  "file": "sdmc:/Minecraft 3DS/200-larger-sun-moon.zip",
+                  "input": "200-larger-sun-moon/000400000017FD00/romfs/resourcepacks/vanilla/textures/environment/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/textures/environment/"
                },
                {
                   "type": "deleteFile",
-                  "file": "sdmc:/MC 3DS Worlds/poketube-city-v1-3.zip"
+                  "file": "sdmc:/Minecraft 3DS/200-larger-sun-moon.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
                },
                {
                   "type": "promptMessage",
-                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "message": "This will only work when the\nvanilla textures are enabled.",
                   "count": 1
                }
             ]
