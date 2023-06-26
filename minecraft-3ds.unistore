@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"Download Minecraft 3DS stuff here",
       "file":"minecraft-3ds.unistore",
-      "revision":0,
+      "revision":1,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
