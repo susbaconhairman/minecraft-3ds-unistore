@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"Download Minecraft 3DS stuff here",
       "file":"minecraft-3ds.unistore",
-      "revision":1,
+      "revision":2,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -1290,6 +1290,360 @@
                }
             ]
          }
+      },
+      {
+         "info":{
+            "title":"New Base Skins",
+            "author":"TheRustico36",
+            "version":"1",
+            "category":[
+               "skin pack"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"The newest versions of Steve and Alex from the Minecraft Java Edition launcher.",
+            "license":"unknown",
+            "releasenotes": "The newest versions of Steve and Alex from the Minecraft launcher.\n\nSkins - 2\n\nPorter - TheRustico36\n\nCreator - Mojang",
+            "screenshots": [
+               {
+                  "description": "Steve",
+                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/new-base-skins-a.png"
+               },
+               {
+                  "description": "Alex",
+                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/new-base-skins-b.png"
+               }
+            ],
+            "icon_index":9,
+            "sheet_index":0,
+            "last_updated":"2022-11-26 at 00:00 (UTC)"
+         },
+         "New Base Skins (USA)":[
+            {
+               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/skins/new-base-skins.zip",
+               "output":"sdmc:/Minecraft 3DS/new-base-skins.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Base",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/new-base-skins.zip",
+               "input":"New Base Skins/Base/",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Base/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/new-base-skins.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "New Base Skins (EUR)":[
+            {
+               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/skins/new-base-skins.zip",
+               "output":"sdmc:/Minecraft 3DS/new-base-skins.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Base",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/new-base-skins.zip",
+               "input":"New Base Skins/Base/",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Base/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/new-base-skins.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "New Base Skins (JPN)":[
+            {
+               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/skins/new-base-skins.zip",
+               "output":"sdmc:/Minecraft 3DS/new-base-skins.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Base",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/new-base-skins.zip",
+               "input":"New Base Skins/Base/",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Base/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/new-base-skins.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ]
+      },
+      {
+         "info":{
+            "title":"Legacy Console Default Skins",
+            "author":"TheRustico36",
+            "version":"1",
+            "category":[
+               "skinpack"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"This skin pack includes classic skins from the Legacy console versions of Minecraft. These skins replace most of the ones from the Biome Settlers 1 pack. ",
+            "license":"unknown",
+            "releasenotes": "This skin pack includes classic skins from the Legacy console versions of Minecraft. These skins replace most of the ones from the Biome Settlers 1 pack.\n\nSkins - 19\n\nPorter - TheRustico36\n\nCreator - Mojang",
+            "screenshots": [
+               {
+                  "description": "Some of the skins (sorry for poor quality, not my fault)",
+                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/legacy-skins.png"
+               }
+            ],
+            "icon_index":8,
+            "sheet_index":0,
+            "last_updated":"2022-09-21 at 00:00 (UTC)"
+         },
+         "Legacy Console Skins (USA)":[
+            {
+               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/skins/legacy_console_default.zip",
+               "output":"sdmc:/Minecraft 3DS/legacy_console_default.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/PVP_Warriors/",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/legacy_console_default.zip",
+               "input":"PVP_Warriors/",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/PVP_Warriors/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/legacy_console_default.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "Legacy Console Skins (EUR)":[
+            {
+               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/skins/legacy_console_default.zip",
+               "output":"sdmc:/Minecraft 3DS/legacy_console_default.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/PVP_Warriors/",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/legacy_console_default.zip",
+               "input":"PVP_Warriors/",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/PVP_Warriors/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/legacy_console_default.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "Legacy Console Skins (JPN)":[
+            {
+               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/skins/legacy_console_default.zip",
+               "output":"sdmc:/Minecraft 3DS/legacy_console_default.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/PVP_Warriors/",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/legacy_console_default.zip",
+               "input":"PVP_Warriors/",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/PVP_Warriors/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/legacy_console_default.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ]
+      },
+      {
+         "info":{
+            "title":"New GUI",
+            "author":"TheRustico36",
+            "version":"2.0",
+            "category":[
+               "texture pack",
+               "textures"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"This texture pack adds a new, darker look to Minecraft 3DS.",
+            "license":"unknown",
+            "releasenotes": "This texture pack adds a new, darker look to Minecraft 3DS.\n\nCreator - TheRustico36",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/gui-a.png"
+               },
+               {
+                  "description": "Image #2",
+                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/gui-b.png"
+               },
+               {
+                  "description": "Image #3",
+                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/gui-c.png"
+               },
+               {
+                  "description": "Image #4",
+                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/gui-d.png"
+               },
+               {
+                  "description": "Image #5",
+                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/gui-e.png"
+               }
+            ],
+            "icon_index":10,
+            "sheet_index":0,
+            "last_updated":"2023-04-22 at 06:44 (CST)"
+         },
+         "Cleann'slick GUI (USA)":[
+            {
+               "type":"promptMessage",
+               "message":"Make sure you install this AFTER installing\na full texture pack, otherwise this will\n be overwritten by the new textures.",
+               "count":1
+            },
+            {
+               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_2.0.rar",
+               "output":"sdmc:/Minecraft 3DS/Cleannslick_GUI_2.0.rar",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_2.0.rar",
+               "input":"Cleann'slick_GUI_2.0/gui/",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_2.0.rar"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "Cleann'slick GUI (EUR)":[
+            {
+               "type":"promptMessage",
+               "message":"Make sure you install this AFTER installing\na full texture pack, otherwise this will\n be overwritten by the new textures.",
+               "count":1
+            },
+            {
+               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_2.0.rar",
+               "output":"sdmc:/Minecraft 3DS/Cleannslick_GUI_2.0.rar",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_2.0.rar",
+               "input":"Cleann'slick_GUI_2.0/gui/",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_2.0.rar"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "Cleann'slick GUI (JPN)":[
+            {
+               "type":"promptMessage",
+               "message":"Make sure you install this AFTER installing\na full texture pack, otherwise this will\n be overwritten by the new textures.",
+               "count":1
+            },
+            {
+               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_2.0.rar",
+               "output":"sdmc:/Minecraft 3DS/Cleannslick_GUI_2.0.rar",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/gui",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_2.0.rar",
+               "input":"Cleann'slick_GUI_2.0/gui/",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/gui/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_2.0.rar"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ]
       }
    ]
 }
