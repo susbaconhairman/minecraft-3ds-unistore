@@ -29,3 +29,4 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, Google Docs for
     * 2B2T Legends skin pack
     * Murder Drones skin pack port
     * LEGO Minecraft Dragon Slayer skin port
+    * Customization remover
