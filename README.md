@@ -24,6 +24,8 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, Google Docs for
     * Wewelsburg map
     * Realistic 200% Larger Sun + Moon Collection
 * susbaconhairman
-    * kharrii2 texture pack
+    * kharrii2 texture pack port
     * New Default Skins port
     * 2B2T Legends skin pack
+    * Murder Drones skin pack port
+    * LEGO Minecraft Dragon Slayer skin port
