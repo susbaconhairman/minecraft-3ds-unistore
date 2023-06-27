@@ -1644,6 +1644,85 @@
                "count":1
             }
          ]
+      },
+      {
+         "info":{
+            "title":"ENDERMANYK's Shaders",
+            "author":"ENDERMANYK",
+            "version":"1.0.2",
+            "category":[
+               "mod",
+               "textures",
+               "shader"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"This shader increases the world brightness and adds the side block shadow.",
+            "license":"none",
+            "releasenotes": "This shader increases the world brightness and adds the side block shadow.\n\nRelease 1.0.2\n\nNotes:\n-Rewrite the shadow code\n-Add the Lighting blocks color\n\nYou will need a Modded 3ds for the file works.\n\nMake sure you enabled Game Patching in the Luma3ds menu.\n\nPut the file to:\nUSA Version game\nsdcard:/luma/titles/00040000001B8700/romfs/shaders/3DS/\nEurope Version game\nsdcard:/luma/titles/000400000017CA00/romfs/shaders/3DS\nJapan Version game\nsdcard:/luma/titles/000400000017FD00/romfs/shaders/3DS",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/shader.png"
+               },
+               {
+                  "description": "Image #2",
+                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/endermanyk-a.png"
+               },
+               {
+                  "description": "Image #3",
+                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/endermanyk-b.png"
+               },
+               {
+                  "description": "Image #4",
+                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/endermanyk-c.png"
+               },
+               {
+                  "description": "Image #5",
+                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/endermanyk-d.png"
+               }
+            ],
+            "icon_index":11,
+            "sheet_index":0,
+            "last_updated":"2023-04-08 at 09:33 (CDT)"
+         },
+         "ENDERMANYK's Shaders (USA)":[
+            {
+               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/mods/renderchunk.shbin",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/shaders/3DS/renderchunk.shbin",
+               "type":"downloadFile"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "ENDERMANYK's Shaders (EUR)":[
+            {
+               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/mods/renderchunk.shbin",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/shaders/3DS/renderchunk.shbin",
+               "type":"downloadFile"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "ENDERMANYK's Shaders (JPN)":[
+            {
+               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/mods/renderchunk.shbin",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/shaders/3DS/renderchunk.shbin",
+               "type":"downloadFile"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ]
       }
    ]
 }
