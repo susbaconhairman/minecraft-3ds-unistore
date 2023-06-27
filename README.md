@@ -2,7 +2,7 @@
 The NEW Minecraft 3DS UniStore, no pirated content or stuff that I haven't gotten permission to add.
 
 ## QR Code for installing on the Universal Updater
-![Minecraft 3DS UniStore QR Code](https://github.com/susbaconhairman/minecraft-3ds-unistore/blob/main/img/unistore-qr-375.png?raw=true)
+![Minecraft 3DS UniStore QR Code](https://github.com/susbaconhairman/minecraft-3ds-unistore/blob/main/img/unistore-qr-logo-375.png?raw=true)
 
 ## Information
 Old repos:
