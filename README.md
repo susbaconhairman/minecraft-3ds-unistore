@@ -37,5 +37,7 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, Google Docs for
     * New GUI
     * New Base Skins port
     * Legacy Console Default skin pack port
+* ENDERMANYK
+    * Shaders
 
 **ALL CONTENT HAS THE APPROVAL OF THEIR RESPECTIVE CREATORS TO BE IN THIS STORE**
