@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":4,
+      "revision":5,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -869,14 +869,14 @@
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/200-larger-sun-moon.zip",
-                  "input": "200-larger-sun-moon/00040000001B8700/romfs/resourcepacks/vanilla/images/environment/",
-                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/images/environment/"
+                  "input": "200-larger-sun-moon/00040000001B8700/romfs/resourcepacks/natural/images/environment/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/natural/images/environment/"
                },
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/200-larger-sun-moon.zip",
-                  "input": "200-larger-sun-moon/00040000001B8700/romfs/resourcepacks/vanilla/textures/environment/",
-                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/textures/environment/"
+                  "input": "200-larger-sun-moon/00040000001B8700/romfs/resourcepacks/natural/textures/environment/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/natural/textures/environment/"
                },
                {
                   "type": "deleteFile",
@@ -889,7 +889,7 @@
                },
                {
                   "type": "promptMessage",
-                  "message": "This will only work when the\nvanilla textures are enabled.",
+                  "message": "This will only work when the\nnatural textures are enabled.",
                   "count": 1
                }
             ]
@@ -905,14 +905,14 @@
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/200-larger-sun-moon.zip",
-                  "input": "200-larger-sun-moon/000400000017CA00/romfs/resourcepacks/vanilla/images/environment/",
-                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/images/environment/"
+                  "input": "200-larger-sun-moon/000400000017CA00/romfs/resourcepacks/natural/images/environment/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/natural/images/environment/"
                },
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/200-larger-sun-moon.zip",
-                  "input": "200-larger-sun-moon/000400000017CA00/romfs/resourcepacks/vanilla/textures/environment/",
-                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/textures/environment/"
+                  "input": "200-larger-sun-moon/000400000017CA00/romfs/resourcepacks/natural/textures/environment/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/natural/textures/environment/"
                },
                {
                   "type": "deleteFile",
@@ -925,7 +925,7 @@
                },
                {
                   "type": "promptMessage",
-                  "message": "This will only work when the\nvanilla textures are enabled.",
+                  "message": "This will only work when the\nnatural textures are enabled.",
                   "count": 1
                }
             ]
@@ -941,14 +941,14 @@
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/200-larger-sun-moon.zip",
-                  "input": "200-larger-sun-moon/000400000017FD00/romfs/resourcepacks/vanilla/images/environment/",
-                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/images/environment/"
+                  "input": "200-larger-sun-moon/000400000017FD00/romfs/resourcepacks/natural/images/environment/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/natural/images/environment/"
                },
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/200-larger-sun-moon.zip",
-                  "input": "200-larger-sun-moon/000400000017FD00/romfs/resourcepacks/vanilla/textures/environment/",
-                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/textures/environment/"
+                  "input": "200-larger-sun-moon/000400000017FD00/romfs/resourcepacks/natural/textures/environment/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/natural/textures/environment/"
                },
                {
                   "type": "deleteFile",
@@ -961,7 +961,7 @@
                },
                {
                   "type": "promptMessage",
-                  "message": "This will only work when the\nvanilla textures are enabled.",
+                  "message": "This will only work when the\nnatural textures are enabled.",
                   "count": 1
                }
             ]
@@ -977,14 +977,14 @@
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-phases.zip",
-                  "input": "200-larger-sun-blood-moon-every-night-phases/00040000001B8700/romfs/resourcepacks/vanilla/images/environment/",
-                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/images/environment/"
+                  "input": "200-larger-sun-blood-moon-every-night-phases/00040000001B8700/romfs/resourcepacks/natural/images/environment/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/natural/images/environment/"
                },
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-phases.zip",
-                  "input": "200-larger-sun-blood-moon-every-night-phases/00040000001B8700/romfs/resourcepacks/vanilla/textures/environment/",
-                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/textures/environment/"
+                  "input": "200-larger-sun-blood-moon-every-night-phases/00040000001B8700/romfs/resourcepacks/natural/textures/environment/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/natural/textures/environment/"
                },
                {
                   "type": "deleteFile",
@@ -997,7 +997,7 @@
                },
                {
                   "type": "promptMessage",
-                  "message": "This will only work when the\nvanilla textures are enabled.",
+                  "message": "This will only work when the\nnatural textures are enabled.",
                   "count": 1
                }
             ]
@@ -1013,14 +1013,14 @@
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-phases.zip",
-                  "input": "200-larger-sun-blood-moon-every-night-phases/000400000017CA00/romfs/resourcepacks/vanilla/images/environment/",
-                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/images/environment/"
+                  "input": "200-larger-sun-blood-moon-every-night-phases/000400000017CA00/romfs/resourcepacks/natural/images/environment/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/natural/images/environment/"
                },
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-phases.zip",
-                  "input": "200-larger-sun-blood-moon-every-night-phases/000400000017CA00/romfs/resourcepacks/vanilla/textures/environment/",
-                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/textures/environment/"
+                  "input": "200-larger-sun-blood-moon-every-night-phases/000400000017CA00/romfs/resourcepacks/natural/textures/environment/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/natural/textures/environment/"
                },
                {
                   "type": "deleteFile",
@@ -1033,7 +1033,7 @@
                },
                {
                   "type": "promptMessage",
-                  "message": "This will only work when the\nvanilla textures are enabled.",
+                  "message": "This will only work when the\nnatural textures are enabled.",
                   "count": 1
                }
             ]
@@ -1049,14 +1049,14 @@
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-phases.zip",
-                  "input": "200-larger-sun-blood-moon-every-night-phases/000400000017FD00/romfs/resourcepacks/vanilla/images/environment/",
-                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/images/environment/"
+                  "input": "200-larger-sun-blood-moon-every-night-phases/000400000017FD00/romfs/resourcepacks/natural/images/environment/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/natural/images/environment/"
                },
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-phases.zip",
-                  "input": "200-larger-sun-blood-moon-every-night-phases/000400000017FD00/romfs/resourcepacks/vanilla/textures/environment/",
-                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/textures/environment/"
+                  "input": "200-larger-sun-blood-moon-every-night-phases/000400000017FD00/romfs/resourcepacks/natural/textures/environment/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/natural/textures/environment/"
                },
                {
                   "type": "deleteFile",
@@ -1069,7 +1069,7 @@
                },
                {
                   "type": "promptMessage",
-                  "message": "This will only work when the\nvanilla textures are enabled.",
+                  "message": "This will only work when the\nnatural textures are enabled.",
                   "count": 1
                }
             ]
@@ -1085,14 +1085,14 @@
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-full-moon.zip",
-                  "input": "200-larger-sun-blood-moon-every-night-full-moon/00040000001B8700/romfs/resourcepacks/vanilla/images/environment/",
-                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/images/environment/"
+                  "input": "200-larger-sun-blood-moon-every-night-full-moon/00040000001B8700/romfs/resourcepacks/natural/images/environment/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/natural/images/environment/"
                },
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-full-moon.zip",
-                  "input": "200-larger-sun-blood-moon-every-night-full-moon/00040000001B8700/romfs/resourcepacks/vanilla/textures/environment/",
-                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/textures/environment/"
+                  "input": "200-larger-sun-blood-moon-every-night-full-moon/00040000001B8700/romfs/resourcepacks/natural/textures/environment/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/natural/textures/environment/"
                },
                {
                   "type": "deleteFile",
@@ -1105,7 +1105,7 @@
                },
                {
                   "type": "promptMessage",
-                  "message": "This will only work when the\nvanilla textures are enabled.",
+                  "message": "This will only work when the\nnatural textures are enabled.",
                   "count": 1
                }
             ]
@@ -1121,14 +1121,14 @@
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-full-moon.zip",
-                  "input": "200-larger-sun-blood-moon-every-night-full-moon/000400000017CA00/romfs/resourcepacks/vanilla/images/environment/",
-                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/images/environment/"
+                  "input": "200-larger-sun-blood-moon-every-night-full-moon/000400000017CA00/romfs/resourcepacks/natural/images/environment/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/natural/images/environment/"
                },
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-full-moon.zip",
-                  "input": "200-larger-sun-blood-moon-every-night-full-moon/000400000017CA00/romfs/resourcepacks/vanilla/textures/environment/",
-                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/textures/environment/"
+                  "input": "200-larger-sun-blood-moon-every-night-full-moon/000400000017CA00/romfs/resourcepacks/natural/textures/environment/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/natural/textures/environment/"
                },
                {
                   "type": "deleteFile",
@@ -1141,7 +1141,7 @@
                },
                {
                   "type": "promptMessage",
-                  "message": "This will only work when the\nvanilla textures are enabled.",
+                  "message": "This will only work when the\nnatural textures are enabled.",
                   "count": 1
                }
             ]
@@ -1157,14 +1157,14 @@
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-full-moon.zip",
-                  "input": "200-larger-sun-blood-moon-every-night-full-moon/000400000017FD00/romfs/resourcepacks/vanilla/images/environment/",
-                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/images/environment/"
+                  "input": "200-larger-sun-blood-moon-every-night-full-moon/000400000017FD00/romfs/resourcepacks/natural/images/environment/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/natural/images/environment/"
                },
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-full-moon.zip",
-                  "input": "200-larger-sun-blood-moon-every-night-full-moon/000400000017FD00/romfs/resourcepacks/vanilla/textures/environment/",
-                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/textures/environment/"
+                  "input": "200-larger-sun-blood-moon-every-night-full-moon/000400000017FD00/romfs/resourcepacks/natural/textures/environment/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/natural/textures/environment/"
                },
                {
                   "type": "deleteFile",
@@ -1177,7 +1177,7 @@
                },
                {
                   "type": "promptMessage",
-                  "message": "This will only work when the\nvanilla textures are enabled.",
+                  "message": "This will only work when the\nnatural textures are enabled.",
                   "count": 1
                }
             ]
@@ -1193,14 +1193,14 @@
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-full-moon.zip",
-                  "input": "200-larger-sun-blood-moon-every-full-moon/00040000001B8700/romfs/resourcepacks/vanilla/images/environment/",
-                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/images/environment/"
+                  "input": "200-larger-sun-blood-moon-every-full-moon/00040000001B8700/romfs/resourcepacks/natural/images/environment/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/natural/images/environment/"
                },
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-full-moon.zip",
-                  "input": "200-larger-sun-blood-moon-every-full-moon/00040000001B8700/romfs/resourcepacks/vanilla/textures/environment/",
-                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/textures/environment/"
+                  "input": "200-larger-sun-blood-moon-every-full-moon/00040000001B8700/romfs/resourcepacks/natural/textures/environment/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/natural/textures/environment/"
                },
                {
                   "type": "deleteFile",
@@ -1213,7 +1213,7 @@
                },
                {
                   "type": "promptMessage",
-                  "message": "This will only work when the\nvanilla textures are enabled.",
+                  "message": "This will only work when the\nnatural textures are enabled.",
                   "count": 1
                }
             ]
@@ -1229,14 +1229,14 @@
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-full-moon.zip",
-                  "input": "200-larger-sun-blood-moon-every-full-moon/000400000017CA00/romfs/resourcepacks/vanilla/images/environment/",
-                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/images/environment/"
+                  "input": "200-larger-sun-blood-moon-every-full-moon/000400000017CA00/romfs/resourcepacks/natural/images/environment/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/natural/images/environment/"
                },
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-full-moon.zip",
-                  "input": "200-larger-sun-blood-moon-every-full-moon/000400000017CA00/romfs/resourcepacks/vanilla/textures/environment/",
-                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/textures/environment/"
+                  "input": "200-larger-sun-blood-moon-every-full-moon/000400000017CA00/romfs/resourcepacks/natural/textures/environment/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/natural/textures/environment/"
                },
                {
                   "type": "deleteFile",
@@ -1249,7 +1249,7 @@
                },
                {
                   "type": "promptMessage",
-                  "message": "This will only work when the\nvanilla textures are enabled.",
+                  "message": "This will only work when the\nnatural textures are enabled.",
                   "count": 1
                }
             ]
@@ -1265,14 +1265,14 @@
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-full-moon.zip",
-                  "input": "200-larger-sun-blood-moon-every-full-moon/000400000017FD00/romfs/resourcepacks/vanilla/images/environment/",
-                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/images/environment/"
+                  "input": "200-larger-sun-blood-moon-every-full-moon/000400000017FD00/romfs/resourcepacks/natural/images/environment/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/natural/images/environment/"
                },
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-full-moon.zip",
-                  "input": "200-larger-sun-blood-moon-every-full-moon/000400000017FD00/romfs/resourcepacks/vanilla/textures/environment/",
-                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/textures/environment/"
+                  "input": "200-larger-sun-blood-moon-every-full-moon/000400000017FD00/romfs/resourcepacks/natural/textures/environment/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/natural/textures/environment/"
                },
                {
                   "type": "deleteFile",
@@ -1285,7 +1285,7 @@
                },
                {
                   "type": "promptMessage",
-                  "message": "This will only work when the\nvanilla textures are enabled.",
+                  "message": "This will only work when the\nnatural textures are enabled.",
                   "count": 1
                }
             ]
