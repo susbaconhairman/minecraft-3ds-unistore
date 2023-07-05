@@ -26,6 +26,7 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, Google Docs for
 * ThorMode9
     * Wewelsburg map
     * Realistic 200% Larger Sun + Moon Collection
+    * Superflat Survival
 * susbaconhairman
     * kharrii2 texture pack port
     * New Default Skins port
