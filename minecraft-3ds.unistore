@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":6,
+      "revision":7,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -760,7 +760,7 @@
          "info":{
             "title":"Wewelsburg",
             "author":"ThorMode9",
-            "version":"1",
+            "version":"2",
             "category":[
                "worlds"
             ],
@@ -773,46 +773,42 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-a.png"
+                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg2-a.png"
                },
                {
                   "description": "Image #2",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-b.png"
+                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg2-b.png"
                },
                {
                   "description": "Image #3",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-c.png"
+                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg2-c.png"
                },
                {
                   "description": "Image #4",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-d.png"
-               },
-               {
-                  "description": "Image #5",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-e.png"
+                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg2-d.png"
                }
             ],
             "icon_index":0,
             "sheet_index":0,
-            "last_updated":"2023-04-25 at 00:00 (UTC)"
+            "last_updated":"2023-07-04 at 13:44 (UTC)"
          },
          "Wewelsburg":{
-            "size":"8.42 MB",
+            "size":"12.86 MB",
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/worlds/wewelsburg.zip",
-                  "output": "sdmc:/Minecraft 3DS/worlds/wewelsburg.zip"
+                  "file": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/worlds/wewelsburg-2.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/wewelsburg-2.zip"
                },
                {
                   "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/worlds/wewelsburg.zip",
-                  "input": "Wewelsburg/",
-                  "output": "sdmc:/Minecraft 3DS/worlds/Wewelsburg/"
+                  "file": "sdmc:/Minecraft 3DS/worlds/wewelsburg-2.zip",
+                  "input": "Minecraft 3DS Wewelsburg (Original) 2023 New/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Wewelsburg New/"
                },
                {
                   "type": "deleteFile",
-                  "file": "sdmc:/Minecraft 3DS/worlds/wewelsburg.zip"
+                  "file": "sdmc:/Minecraft 3DS/worlds/wewelsburg-2.zip"
                },
                {
                   "type": "promptMessage",
@@ -1723,6 +1719,57 @@
                "count":1
             }
          ]
+      },
+      {
+         "info":{
+            "title":"Superflat Survival",
+            "author":"ThorMode9",
+            "version":"1",
+            "category":[
+               "worlds"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Superflat survival is particularly challenging because there are no structures and no materials to start with except for unlimited dirt three layers deep with bedrock underneath. This edition includes the infamous "Bonus Chest" accompanied by four torches and contains two (2) apples and one (1) sapling.",
+            "license":"unknown",
+            "releasenotes": "Superflat survival is particularly challenging because there are no structures and no materials to start with except for unlimited dirt three layers deep with bedrock underneath. This edition includes the infamous "Bonus Chest" accompanied by four torches and contains two (2) apples and one (1) sapling.",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/superflat-survival.png"
+               }
+            ],
+            "icon_index":12,
+            "sheet_index":0,
+            "last_updated":"2023-07-04 at 09:38 (UTC)"
+         },
+         "Superflat Survival":{
+            "size":"351.93 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/worlds/superflat-survival.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/superflat-survival.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/superflat-survival.zip",
+                  "input": "Minecraft 3DS Superflat Survival (Bonus Chest)/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Superflat Survival/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/superflat-survival.zip"
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count": 1
+               }
+            ]
+         }
       }
    ]
 }
+
