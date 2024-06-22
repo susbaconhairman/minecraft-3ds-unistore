@@ -1,6 +1,8 @@
 # DO NOT USE THIS REPOSITORY! THE UNISTORE HAS MOVED TO HERE: [https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore](https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore)
 
-# Minecraft 3DS UniStore
+---
+
+<del>  Minecraft 3DS UniStore
 The NEW Minecraft 3DS UniStore, no pirated content or stuff that I haven't gotten permission to add.
 
 ## QR Code for installing on the Universal Updater
@@ -43,4 +45,4 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, Google Docs for
 * ENDERMANYK
     * Shaders
 
-**ALL CONTENT HAS THE APPROVAL OF THEIR RESPECTIVE CREATORS TO BE IN THIS STORE**
+**ALL CONTENT HAS THE APPROVAL OF THEIR RESPECTIVE CREATORS TO BE IN THIS STORE** </del>
